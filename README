@@ -1,0 +1,16 @@
+README
+
+Created in VS2010, developed in C#.
+
+This application allows the user to resize photographs and generate thumbnails specifically for web use. HTML code is also generated for each file.
+
+HOW IT WORKS
+
+1. Enter the source and destination folders
+2. Enter the file name and alternate text
+3. Enter the requested size of the large sized image and thumbnail image
+4. Push 'GO'
+
+WHAT HAPPENS
+
+The files from the source folder are used to generate smaller web-friendly files (a larger one and a thumbnail) in the destination directory and named with the provided file name. HTML code is generated from the newly generated files. By clicking in the text box, the code can be copied.
