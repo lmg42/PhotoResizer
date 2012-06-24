@@ -13,7 +13,6 @@ namespace PhotoResizer
 {
     public partial class Form1 : Form
     {
-
         string srcFolder;
         string destFolder;
         int largeSize;
@@ -126,7 +125,7 @@ namespace PhotoResizer
             //resize the long side of the image to create newly sized image
             Size s = new Size(widthSmall, heightSmall);
             smallImage = resizeToSmallImage(originalImage, s);
-            //smallImage = originalImage.GetThumbnailImage(widthSmall, heightSmall, null, IntPtr.Zero);
+
             //resize the long side of the image to create newly sized thumbnail
             thumbnail = originalImage.GetThumbnailImage(widthThumb, heightThumb, null, IntPtr.Zero);
 
